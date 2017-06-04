@@ -18,15 +18,24 @@ public class Suggestion {
     public class Comfort {
         @SerializedName("txt")
         public String info;
+
+        @SerializedName("brf")
+        public String grade;
     }
 
     public class CarWash {
         @SerializedName("txt")
         public String info;
+
+        @SerializedName("brf")
+        public String grade;
     }
 
     public class Sport {
         @SerializedName("txt")
         public String info;
+
+        @SerializedName("brf")
+        public String grade;
     }
 }
